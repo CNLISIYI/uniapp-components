@@ -1,0 +1,1 @@
+<uni-countdown vue-id="1" day="{{dd}}" hour="{{hh}}" minute="{{mm}}" second="{{ss}}" bind:__l="__l"></uni-countdown>
