@@ -41,7 +41,7 @@
 	- 在<script></script>中需要import uniCountdown from '../../component/uni-carousel.vue';，并在components中使用。
 	- 在data()中需要定义轮播内容(listArr)、索引值(index)、控制变量(isaniok)和空列表数组(newList)。
 	- 代码中以获得*元红包举例，可以参考例子自行修改轮播内容。
-	 * 使用时只需要修改listTimerOut()中“`恭喜${_this.usersName[i]}**获得了${parseInt(Math.random() * 100)}元红包`”中的文字部分即可；
+	 * 使用时只需要修改listTimerOut()中字符串“``”内的文字部分即可；
 	 * 数字“438”为百家姓的个数，即以百家姓生成的数组的长度，可自行定义；
 	 * 例子中定义了百家姓数组(usersName)，随机姓氏和钱数，可自行选择使用。
 	- listTimerOut()是控制轮播内容的关键函数，在需要的地方调用。
