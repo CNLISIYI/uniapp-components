@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "播报效果",
+  "usingComponents": {
+    "uni-carousel": "/component/uni-carousel"
+  }
+}

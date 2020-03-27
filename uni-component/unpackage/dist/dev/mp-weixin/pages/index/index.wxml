@@ -1,1 +1,1 @@
-<view class="_div"></view>
+<view><navigator hover-class="none" url="../datecutdown/index">日期倒计时</navigator><navigator hover-class="none" url="../listcarousel/index">播报效果</navigator></view>

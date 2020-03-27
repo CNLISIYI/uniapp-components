@@ -6,6 +6,9 @@ import tools from "./common/js/util";
 import uniCountdown from "./component/uni-countdown.vue"
 Vue.component( "uniCountdown", uniCountdown );
 
+import uniCarousel from "./component/uni-carousel.vue"
+Vue.component( "uniCarousel", uniCarousel );
+
 
 
 Vue.prototype.tools = tools;

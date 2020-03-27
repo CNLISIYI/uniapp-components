@@ -3,13 +3,17 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "没啥用"
+				"navigationBarTitleText": "入口"
 			}
-		}
-        ,{
+		},{
             "path" : "pages/datecutdown/index",
             "style" : {
 				"navigationBarTitleText": "日期倒计时"
+			}
+        },{
+            "path" : "pages/listcarousel/index",
+            "style" : {
+				"navigationBarTitleText": "播报效果"
 			}
         }
     ],

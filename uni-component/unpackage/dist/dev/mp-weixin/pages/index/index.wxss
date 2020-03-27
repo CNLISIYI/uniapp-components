@@ -1,0 +1,15 @@
+
+navigator {
+	display: block;
+	width: 80vw;
+	height: 108rpx;
+	margin: 20rpx auto;
+	text-align: center;
+	font-size: 40rpx;
+	font-weight: 600;
+	line-height: 108rpx;
+	color: pink;
+	border: 1px solid #48c8ff;
+	text-decoration: none;
+}
+

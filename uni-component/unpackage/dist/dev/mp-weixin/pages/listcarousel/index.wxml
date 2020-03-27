@@ -1,0 +1,1 @@
+<uni-carousel vue-id="641305e8-1" Arr="{{listArr}}" index="{{index}}" isaniok="{{isaniok}}" bind:__l="__l"></uni-carousel>

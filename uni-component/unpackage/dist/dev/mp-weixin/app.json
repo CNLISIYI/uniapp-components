@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/datecutdown/index"
+    "pages/datecutdown/index",
+    "pages/listcarousel/index"
   ],
   "subPackages": [],
   "window": {
@@ -11,6 +12,8 @@
     "backgroundColor": "#F8F8F8"
   },
   "usingComponents": {
-    "uni-countdown": "/component/uni-countdown"
-  }
+    "uni-countdown": "/component/uni-countdown",
+    "uni-carousel": "/component/uni-carousel"
+  },
+  "sitemapLocation": "sitemap88.json"
 }
