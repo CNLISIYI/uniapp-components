@@ -141,6 +141,18 @@ var _default =
       type: Array,
       default: [] },
 
+    ArrS: {
+      type: Array,
+      default: [] },
+
+    ArrT: {
+      type: Array,
+      default: [] },
+
+    ArrF: {
+      type: Array,
+      default: [] },
+
     index: {
       type: Number,
       default: 0 },

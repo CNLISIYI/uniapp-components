@@ -2,9 +2,9 @@
 	<view>
 		<view class="news-list" v-if="isaniok">
 			<view class="firtotop">{{ Arr[index] }}</view>
-			<view class="sectofir">{{ Arr[index + 1] }}</view>
-			<view class="thitosec">{{ Arr[index + 2] }}</view>
-			<view class="fortothi">{{ Arr[index + 3] }}</view>
+			<view class="sectofir">{{ ArrS[index] }}</view>
+			<view class="thitosec">{{ ArrT[index] }}</view>
+			<view class="fortothi">{{ ArrF[index] }}</view>
 		</view>
 		<view class="news-list" v-if="!isaniok">
 			<view>{{ ArrCopy[0] }}</view>
@@ -20,6 +20,18 @@ export default {
 	name: 'UniCarousel',
 	props: {
 		Arr: {
+			type: Array,
+			default: []
+		},
+		ArrS: {
+			type: Array,
+			default: []
+		},
+		ArrT: {
+			type: Array,
+			default: []
+		},
+		ArrF: {
 			type: Array,
 			default: []
 		},

@@ -1,5 +1,5 @@
 <template>
-	<uni-carousel :Arr="listArr" :index="index" :isaniok="isaniok"></uni-carousel>
+	<uni-carousel :Arr="listArr" :index="index" :isaniok="isaniok" :ArrS="listArr2" :ArrT="listArr3" :ArrF="listArr4"></uni-carousel>
 </template>
 
 <script>
@@ -40,6 +40,9 @@ export default {
 				"谯","笪","年","爱","阳","佟",
 			],
 			newList: [],
+			listArr2: [],
+			listArr3: [],
+			listArr4: [],
 			isaniok: true
 		};
     },
@@ -59,6 +62,9 @@ export default {
 			_this.isaniok = false;
 			setInterval(function() {
 				_this.listArr.push(_this.newList[parseInt(Math.random() * 438)]);
+				_this.listArr2 = _this.listArr.slice(1);
+				_this.listArr3 = _this.listArr2.slice(1);
+				_this.listArr4 = _this.listArr3.slice(1);
 				_this.index++;
 				_this.isaniok = true;
 			}, 2000);
